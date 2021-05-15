@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background: linear-gradient(#00FF7F 0%, #40E0D0 100%);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 30%;
+    width: 500px;
+}
+
+h1 {
+    text-shadow: 2px 2px #DC143C;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.link {
+    font-family:"Akaya Telivigala",cursive;    
+}
+
+.link:hover{
+    background-color:dodgerblue;
+}
+
+#bio{
+    background-color:aquamarine;
+}
+
+p{
+   font-family:"Akaya Telivigala",cursive;   
+}
+
+.menu{
+    position: fixed;
+    background: red;
+    top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+a{
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings{
+    text-shadow: none!important;
+    text-decoration: none!important;
+    color: deepskyblue !important;
+} 
+
+#contact iframe{
+   width:100%; 
+}
+
+.contact_1 a{
+    color: aqua;
+    text-shadow:none;
+}
+
+.contact_1 h3{
+    display:inline;
+}
